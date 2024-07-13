@@ -15,7 +15,7 @@ public class PricingCardRepository {
 
     public PricingCard card2() {
         return new PricingCard("Pro Plan", "Great for medium-sized businesses", 79,
-                List.of("20 GB Storage", "Priority Support", "Advanced Features"));
+                List.of("20 GB Storage", "Priority Support"));
     }
 
     public PricingCard card3() {
